@@ -1,8 +1,8 @@
-## 使用vuepress搭建类似element的组件库文档官网
+> vuepress搭建类似组件库文档demo
 
-### 参考资料
-- [vuepress官方文档](https://www.vuepress.cn/guide/getting-started.html)
-- 组件展示效果 [demoContainer插件](https://docs.chenjianhui.site/vuepress-plugin-demo-container/zh/)
+### 使用
+- npm run dev 本地启动
+- 在config.js中 配置对应的菜单路径，如下配置，设置后vuepress将mc文件渲染为html
 
 ### vuepress配置
 ```
@@ -54,3 +54,8 @@ export default async ({
 ### 部署
 - 执行 npm run build
 - 部署打包后的 /docs/.vuepress/dist/ 目录
+
+
+### 参考资料
+- [vuepress官方文档](https://www.vuepress.cn/guide/getting-started.html)
+- 组件展示效果 [demoContainer插件](https://docs.chenjianhui.site/vuepress-plugin-demo-container/zh/)
