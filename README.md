@@ -55,6 +55,27 @@ export default async ({
 - 执行 npm run build
 - 部署打包后的 /docs/.vuepress/dist/ 目录
 
+### 修改主题色
+- .vuepress/styles/palette.styl 文件，文件代码如下
+
+```
+$accentColor = #3178c6
+```
+
+### 自定义样式
+- VuePress 提供了一种添加额外样式的简便方法。创建一个 `.vuepress/styles/index.styl` 文件
+
+```
+// 通过检查，查看元素样式声明
+.dark .content__default code {
+    background-color: rgba(58,58,92,0.7);
+    color: #fff;
+}
+.page .page-title {
+   display: none;
+}
+```
+
 
 ### 参考资料
 - [vuepress官方文档](https://www.vuepress.cn/guide/getting-started.html)

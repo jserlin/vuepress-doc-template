@@ -11,8 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+  },
+  "devDependencies": {
     "element-ui": "^2.15.6",
     "vuepress": "^1.8.2",
-    "vuepress-plugin-demo-container": "^0.2.0"
+    "vuepress-plugin-demo-container": "^0.2.0",
+    "vuepress-theme-reco": "^1.6.10"
   }
 }
