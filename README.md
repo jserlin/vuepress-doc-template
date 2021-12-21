@@ -1,5 +1,7 @@
 > vuepress搭建类似组件库文档demo
-
+### 效果
+![文本示例](./static/img-1.png)
+![组件示例](./static/img-2.png)
 ### 使用
 - npm run dev 本地启动
 - 在config.js中 配置对应的菜单路径，如下配置，设置后vuepress将mc文件渲染为html
@@ -8,7 +10,7 @@
 ```
 // 目录 docs/.vuepress/config.js 
 module.exports = {
-  theme: '',
+  theme: 'reco',
   title: 'VuePress + Element',
   description: 'VuePress搭建Element的组件库文档教程示例代码',
   base: '/',
